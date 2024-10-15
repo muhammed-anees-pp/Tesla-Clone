@@ -1,0 +1,436 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*----------------------------------Nav Bar-------------------------------------------*/
+.fixed-nav {
+    width: 100%;
+    height: 50px;
+    background-color: #f4f4f4;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.fixed-nav a {
+    margin-left: 20px;
+    text-decoration: underline;
+}
+
+/*--------------------------------------Main Contents----------------------------*/
+.main-panel {
+    height: auto;
+    padding-top: 50px;
+}
+
+.hero-panel {
+    background-image: url("Images/background-1.jpg");
+    height: 700px;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+}
+.nav-logo {
+    height: 50px;
+    width: 180px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 20px;
+    width: 120px;
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 295px;
+    font-weight: bold;
+    gap: 4px;
+}
+
+.nav-text p {
+    color: white;
+    padding: 8px 17px;
+}
+
+.nav-text p:hover, .nav-icons img:hover {
+    border-radius: 4px;
+    background-color: #6f584f;
+    cursor: pointer;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-left: 300px;
+}
+
+.nav-icons img {
+    height: 27px;
+    width: 32px;
+    margin-left: 7px;
+    padding: 4px 5px;
+}
+
+.change-button {
+    display: flex;
+    gap: 8px;
+    margin: 330px 0 0 55px;
+}
+
+.button {
+    height: 10px;
+    width: 10px;
+    padding: 7px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+.werobot {
+    height: 110px;
+    width: 320px;
+    margin: 10px 0px 0px 50px;
+}
+
+.werobot img {
+    height: 110px;
+    width: 320px;
+}
+
+.white-box {
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border-radius: 4px;
+    color:#5c6057;
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+    margin: 10px 0px 0px 50px;
+}
+
+.white-box:hover {
+    cursor: pointer;
+}
+
+
+/*  Second Panel */
+.second-panel {
+    height: 860px;
+    background-color: white;
+}
+
+.model-y-cover {
+    background-image: url("Images/model-y.jpg");
+    height: 850px;
+    background-size: cover;
+    margin: 50px 50px 0 50px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.model-title h1{
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+.model-subtitle h4 {
+    margin-top: 5px;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.model-lease h5 {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.click-box {
+    height: 100px;
+    padding: 10px;
+    margin-top: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.click-box-white {
+    height: 40px;
+    width: 260px;
+    background-color: white;
+    border-radius: 4px;
+    color: #393c41;
+    align-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.click-box-blue {
+    height: 40px;
+    width: 260px;
+    background-color: #3e6ae1;
+    border-radius: 4px;
+    color:white;
+    align-content: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.click-box-white:hover, .click-box-blue:hover {
+    cursor: pointer;
+}
+
+.cover-panel {
+    height: 860px;
+    background-color: white;
+}
+
+.model-3-cover, .model-s-cover, .model-x-cover, .powerwall-cover, .accessories-cover {
+    height: 850px;
+    background-size: cover;
+    margin: 10px 50px 0 50px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.model-3-cover {
+    background-image: url("Images/model-3.jpg");
+}
+
+.model-price {
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.model-details {
+    margin-top: 5px;
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.model-details:hover, .model-subtitle:hover {
+    cursor: pointer;
+}
+
+.model-x-cover {
+    background-image: url("Images/model-x.jpg");
+}
+
+.model-s-cover {
+    background-image: url("Images/model-s.jpg");
+}
+
+.model-s-cover h5, .model-3-cover h5, .model-y-cover h5{
+    padding-bottom: 30px;
+}
+
+.solar-section {
+    height: 860px;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+
+}
+
+.solar-panels {
+    background-image: url("Images/solar-panel.jpg");
+    height: 850px;
+    width: 700px;
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    
+}
+
+.solar-panels h4, .solar-roof h4{
+    padding-bottom: 55px;
+}
+
+.solar-roof h4 {
+    cursor: default;
+    text-decoration: none;
+}
+
+.solar-roof {
+    background-image: url("Images/solar-roof.jpg");
+    height: 850px;
+    width: 700px;
+    background-size: cover;
+    margin-right: 50px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.truck-foundation {
+    background-image: url("Images/cyber-truck.jpg");
+    height: 850px;
+    background-size: cover;
+    margin: 10px 50px 0 50px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.click-box2 {
+    height: 100px;
+    padding: 10px;
+    margin-top: 605px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.click-box-black {
+    height: 40px;
+    width: 260px;
+    background-color: #2c2022;
+    color: #a19392;
+    align-content: center;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.click-box-black:hover {
+    background-color: #4e373b;
+    cursor: pointer;
+}
+
+.cyber-truck {
+    height: 150px;
+    width: 420px;    
+}
+
+.cyber-truck img {
+    height: 160px;
+    width: 440px;
+    margin: 80px 0px 0px 450px;
+}
+
+.powerwall-cover {
+    background-image: url("Images/powerwall.jpg");
+}
+
+.page-title {
+    padding: 80px 0 65px 0;
+    font-size: 25px;
+}
+
+.accessories-cover {
+    background-image: url("Images/accessories.jpg");
+}
+
+.tesla-content {
+    position: relative;
+    height: 850px;
+    width: 1470px;
+    padding: 10px 50px 0 0px; 
+    margin: 10px 50px 0px 50px;
+    box-sizing: border-box;
+}
+
+.tesla-content video {
+    height: 100%;
+    width: 100%; 
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.text-overlay {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
+
+.text-overlay h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.join-tesla {
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    border-radius: 4px;
+    color:#5c6057;
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.join-tesla:hover {
+    cursor: pointer;
+}
+
+/*--------------------------------------Footer------------------------------------------*/
+footer {
+    text-align: center;
+    justify-content: center;
+}
+
+.foot-description {
+    margin: 20px 0 40px 0;
+    font-size: 12px;
+    color: #5c5e62;
+}
+
+.foot-description p {
+    padding-top: 20px;
+}
+
+.foot-description a {
+    text-decoration: underline;
+}
+
+.final-foot {
+    color: #5c5e62;
+    padding-bottom: 10px;
+}
+
+.final-foot a {
+    font-size: 13px;
+    padding-left: 10px;
+}
